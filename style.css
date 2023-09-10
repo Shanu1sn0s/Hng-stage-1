@@ -2,19 +2,20 @@ body {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+background-color: gray;
 }
 
 .container {
-  height: 700px;
+  height: 600px;
   display: grid;
 border-radius: 6px;
-  width: 400px;
+  width: 600px;
   margin: 50px auto;
   box-shadow:0px 0px 7px gray ;
+  background-color: #fff;
 }
 
 .contents{
-    background-color:;
     display: grid;
     justify-content: center;
     align-items: center;
@@ -31,6 +32,10 @@ background-color: green;
 color:white;
 border-radius: 6px;
 transition-duration: 300ms;
+
+}
+.repo{
+    margin-top: 20px;
 }
 
 .repo > a:hover{
@@ -43,4 +48,5 @@ h1{
 
 img{
     width: 120px;
+    border: 2px dotted green;
 }
