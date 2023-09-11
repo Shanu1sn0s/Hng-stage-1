@@ -16,11 +16,11 @@ const dayIndex = currentDate.getDay();
 
 const currentDayOfWeek = daysOfWeek[dayIndex];
 
-dayOutput.innerText = `Day of the week : ${currentDayOfWeek}`;
+dayOutput.innerText = currentDayOfWeek;
 
 // current time
 const timeOutput = document.getElementById('time');
 const currentTimeMillis = new Date().getTime();
 
 
-timeOutput.innerText = `Time : ${currentTimeMillis}`;
+timeOutput.innerText = currentTimeMillis;
